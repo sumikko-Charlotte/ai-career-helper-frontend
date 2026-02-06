@@ -1,15 +1,5 @@
 {
   "name": "ai-career-helper-frontend",
   "version": "1.0.0",
-  "scripts": {
-    "build": "vite build",
-    "start": "serve ."
-  },
-  "dependencies": {
-    "serve": "^14.2.1"
-  },
-  "devDependencies": {
-    "vite": "^5.1.6",
-    "vue": "^3.4.21"
-  }
+  "scripts": {}
 }
