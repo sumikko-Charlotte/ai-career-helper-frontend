@@ -1,5 +1,9 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "buildCommand": "echo 'skip build'",
-  "outputDirectory": "."
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
